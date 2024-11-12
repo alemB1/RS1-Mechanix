@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RS1-Mechanix.API", "RS1-Mechanix.API\RS1-Mechanix.API.csproj", "{0D31C92F-296C-4F87-A15E-2CF608A9CA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D31C92F-296C-4F87-A15E-2CF608A9CA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D31C92F-296C-4F87-A15E-2CF608A9CA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D31C92F-296C-4F87-A15E-2CF608A9CA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D31C92F-296C-4F87-A15E-2CF608A9CA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F280F0FF-A4A6-4677-951F-2DB10036684C}
+	EndGlobalSection
+EndGlobal
