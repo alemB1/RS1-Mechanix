@@ -8,7 +8,7 @@ namespace RS1_Mechanix.API.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
-        public Employee Employee { get; set; }
+        public Employee? Employee { get; set; }
 
     }
 }
