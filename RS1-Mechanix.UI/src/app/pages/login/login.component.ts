@@ -33,6 +33,7 @@ export class LoginComponent implements OnInit {
   fb = inject(FormBuilder);
 
   login() {
+    console.log(this.form.value); // debugging
     if (this.form.invalid) {
       console.log("Form is invalid", this.form.value);
       return;
@@ -40,6 +41,7 @@ export class LoginComponent implements OnInit {
   
     this.authService.login(this.form.value).subscribe({
       next: (response) => {
+        localStorage.setItem('token', response.token);
         this.matSnackBar.open(response.message, 'Close', {
           duration: 5000,
           horizontalPosition: 'center',
@@ -47,7 +49,7 @@ export class LoginComponent implements OnInit {
         this.router.navigate(['/']);
       },
       error: (error) => {
-        this.matSnackBar.open(error.error.message, 'Close', {
+        this.matSnackBar.open(error.message, 'Close', {
           duration: 5000,
           horizontalPosition: 'center',
         });
